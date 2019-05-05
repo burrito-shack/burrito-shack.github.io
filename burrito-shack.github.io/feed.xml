@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
+<link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+<updated>2019-04-24T00:47:11-04:00</updated>
+<id>http://localhost:4000/</id>
+<subtitle>Just a quick test for fun.</subtitle>
+<entry>
+<title>GURPS Micro-Mecha v0.1</title>
+<link href="http://localhost:4000/gurps/2019/04/23/GURPS-Micro-Mecha.html" rel="alternate" type="text/html" title="GURPS Micro-Mecha v0.1" />
+<published>2019-04-23T23:50:49-04:00</published>
+<updated>2019-04-23T23:50:49-04:00</updated>
+<id>http://localhost:4000/gurps/2019/04/23/GURPS-Micro-Mecha</id>
+<content type="html" xml:base="http://localhost:4000/gurps/2019/04/23/GURPS-Micro-Mecha.html">&lt;p&gt;There’s no reason not to admit that I don’t know what I’m doing, since it’s on a private blog! Even still, I don’t know what I’m doing. That’s important to establish off the bat. But let’s get on to the content.&lt;/p&gt;
+
+&lt;h1 id=&quot;gurps-mecha-is-a-mess&quot;&gt;GURPS Mecha Is A Mess&lt;/h1&gt;
+&lt;p&gt;I’m not being very fair, am I? After all, David Pulver worked hard on &lt;em&gt;GURPS Mecha&lt;/em&gt;! Or did he work hard on &lt;em&gt;GURPS Spaceships&lt;/em&gt;? Or did he work hard on &lt;em&gt;GURPS Spaceships 4: Fighters, Carriers and Mecha&lt;/em&gt;? Or did Sean Punch work hard on the &lt;em&gt;Fourth Edition Basic Set&lt;/em&gt;, and I should build a Mech as a character on a 1000 point budget, giving his main cannons as Innate Attacks and scaling up handheld weapon damage somehow?&lt;/p&gt;
+
+&lt;p&gt;Well, the answer is “Yes,” and “All of the above.” Of course Pulver worked hard. Of course the &lt;em&gt;Basic Set&lt;/em&gt; is good. And there’s a good argument in favor of doing it both ways. But there are five separate systems for designing Mecha in GURPS, between 3rd and 4th editions. And all of them are complicated. Even &lt;em&gt;GURPS Spaceships&lt;/em&gt; is complicated, to a degree. It takes 28 pages to explain the systems on offer. &lt;em&gt;GURPS Spaceships 4&lt;/em&gt; has an explanation of Mecha which is drastically undercut, with only SM+4 designs and legs added, but the removal of Medium/Minor weapons for those designs, and no explanation of how to scale handheld weapons.&lt;/p&gt;
+
+&lt;p&gt;So, in this mixture of 6 separate systems (Mecha as Allies, 3e &lt;em&gt;GURPS Mecha&lt;/em&gt;, 3e &lt;em&gt;GURPS Vehicles 2nd Edition&lt;/em&gt;, 4e &lt;em&gt;GURPS Spaceships 4&lt;/em&gt;, &lt;em&gt;Pyramid #3/40&lt;/em&gt;’s &lt;em&gt;Mecha Operations&lt;/em&gt; and &lt;em&gt;Pyramid #3/51&lt;/em&gt;’s &lt;em&gt;Modular Mecha&lt;/em&gt;), and with the hopes of running an Ultra-Lite Mecha game via Play-by-Post, I came up with a way to make things worse: I made another one, and I made my best effort to fit it onto a single page.&lt;/p&gt;
+
+&lt;h1 id=&quot;micro-mecha&quot;&gt;Micro Mecha&lt;/h1&gt;
+&lt;h2 id=&quot;mecha-at-war&quot;&gt;Mecha At War&lt;/h2&gt;
+&lt;p&gt;The default setting assumed here uses futuristic, laser-firing ‘Mechs of roughly 7 yards in height. For ‘Mechs at different levels of technology, increase Loaded Weight by 1 rank (with the matching decrease in Move) and decrease all other traits by 1 (do not double-tax Move) for every major technological leap backwards, or the opposite (decrease LWt and increase everything else) for the product of improved technology.
+For ‘Mechs of lesser size, reduce all ranks including LWt by 1 per major size jump; of greater, increase all ranks including LWt by 1.&lt;/p&gt;
+
+&lt;p&gt;To build a mech, you spend 20 Hard Points. Each of these represents a piece of equipment or mechanical feature of your mech. These fall into roughly five categories:
+Armor, Movement, Power, Weapons and Support.&lt;/p&gt;
+
+&lt;h2 id=&quot;armor&quot;&gt;Armor&lt;/h2&gt;
+&lt;p&gt;Each Hard Point assigned to armor grants 6 dDR, and increases the Tonnage by 1 rank on the table (the default is 20 tons), along with a matching decrease in Move by 1 rank.
+When a Mech takes damage, each die of dDamage dealt reduces the overall armor by 1 dDR; Sundering weapons deal 2 dDR worth of damage per die.&lt;/p&gt;
+
+&lt;h2 id=&quot;damage&quot;&gt;Damage&lt;/h2&gt;
+&lt;p&gt;When taking damage that penetrates DR, roll a 20-sided die and compare to the Hard Point list. The Mech makes an HT roll to avoid the system being disabled. If the system is already disabled, then it is destroyed on a failed HT roll. If the system is already destroyed, then roll HT to avoid the entire Mech being blown up. If more than 5 dDamage penetrates DR, continue rolling HT after a failure to see how badly the attack penetrates.&lt;/p&gt;
+
+&lt;h2 id=&quot;movement&quot;&gt;Movement&lt;/h2&gt;
+&lt;p&gt;Each Hard Point assigned to additional legs ascends Move by 1 rank, with a default (for two legs) of 10. Regardless of the number of legs, movement costs 1 Power Point.
+This requirement may be increased, with each Power Point further increasing Move by 1 rank per point. This must be decided when creating the Mech.&lt;/p&gt;
+
+&lt;h2 id=&quot;power&quot;&gt;Power&lt;/h2&gt;
+&lt;p&gt;Each Hardpoint assigned to power generation grants 2 Power Points. These Power Points must be assigned during combat situations to allow movement, fire powerful weapons, and power support equipment.
+Assigning and re-assigning Power Points occurs during the combat round.&lt;/p&gt;
+&lt;h2 id=&quot;weapons&quot;&gt;Weapons&lt;/h2&gt;
+&lt;p&gt;Each Hardpoint assigned to weapons can be grouped together into a single weapon or separated into multiple weapons, depending on preference, though this choice must be made at the time of generation (not in real-time).
+Adding a Hardpoint ascends the damage scale by 1 rung, beginning with 1D. Up to 2 modifications can be added per Hard Point, which each add a 1-Power-Point requirement to fire (the default is 0). The modifications are chosen from the following:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Heavy Damage&lt;/strong&gt; ascends 1 rank.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sundering&lt;/strong&gt; Deals extra damage when destroying armor; overall damage is reduced by 1 rank.1&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Armor Piercing&lt;/strong&gt; Divides dDR by two.1
+Multi-Hardpoint weapons systems may take Heavy up to twice per Hard Point, each instance costing 1 Power Point as normal.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;handheld-weapons&quot;&gt;Handheld Weapons&lt;/h3&gt;
+&lt;p&gt;One-Handed Ranged deals Weapon Damage of 1 rank lower, and can take up to 1 Power Point upgrade if limited to 10 shots.
+Two-Handed Ranged deals Weapon Damage, and can take up to 1 Power Point upgrade if limited to 10 shots.
+Handheld Melee weapons deal Weapon Damage, and automatically choose between being Armor Piercing or Sundering. They then choose 1 further Power Point upgrade, which may be additional Sundering or Armor Piercing, or extra damage. Handheld Melee still cannot have both AP and Sundering.&lt;/p&gt;
+
+&lt;h2 id=&quot;support&quot;&gt;Support&lt;/h2&gt;
+&lt;p&gt;Additional equipment may be assigned to Hard Points, each of which is listed below, along with any Power Point requirements.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Weapons Jammer&lt;/strong&gt; &lt;em&gt;(1 Power)&lt;/em&gt; Attacks made against the Mech are made with a –2 penalty.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Targeting System&lt;/strong&gt; &lt;em&gt;(1 Power)&lt;/em&gt; Attacks made by the Mech are made at +1.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Arm&lt;/strong&gt; &lt;em&gt;(1 Power for all Arms)&lt;/em&gt; Either holds handheld weapons, or can be used for striking in melee (Weapon damage +1 Rank).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Radar&lt;/strong&gt; Allows an IQ-based Electronics Operation (Sensors)/TL check to locate other nearby Mecha.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stealth Countermeasures&lt;/strong&gt; Attempts to use Radar to detect the Mech are made with a –2 penalty.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;mecha-combat&quot;&gt;Mecha Combat&lt;/h2&gt;
+&lt;p&gt;Each turn, choose one action from those below, and move up to your Move in yards:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Attack&lt;/strong&gt; &lt;em&gt;Gunnery (Mecha)/TL&lt;/em&gt; check to deal  damage to one target per weapons battery. Each target past the first assesses a –1 penalty to all attacks that round.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Evade&lt;/strong&gt; &lt;em&gt;Driving (Mecha)/TL&lt;/em&gt; check to give enemy Mechs –2 penalty to attack you for 1 turn.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lock-On&lt;/strong&gt; &lt;em&gt;Electronics Operation (Sensors)/TL&lt;/em&gt; to grant a +2 to attacking a specified target on the next turn.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Power Allocation&lt;/strong&gt; Decide whether to act &lt;em&gt;quickly&lt;/em&gt; or &lt;em&gt;carefully&lt;/em&gt;. Careful allocation takes the full turn. If done quickly, test Repair (Mecha)/TL. On failure, your Power pool shrinks by 1 until you reallocate. On a critical success, your Power pool expands by 1, until combat ends. On a critical failure, your Power pool shrinks by 1 until combat ends.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Rank&lt;/th&gt;
+      &lt;th&gt;LWt&lt;/th&gt;
+      &lt;th&gt;Move&lt;/th&gt;
+      &lt;th&gt;Damage&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-14&lt;/td&gt;
+      &lt;td&gt;150 lbs&lt;/td&gt;
+      &lt;td&gt;2/3”&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-13&lt;/td&gt;
+      &lt;td&gt;200 lbs&lt;/td&gt;
+      &lt;td&gt;1”&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-12&lt;/td&gt;
+      &lt;td&gt;300 lbs&lt;/td&gt;
+      &lt;td&gt;1.5”&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-11&lt;/td&gt;
+      &lt;td&gt;500 lbs&lt;/td&gt;
+      &lt;td&gt;2”&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-10&lt;/td&gt;
+      &lt;td&gt;700 lbs&lt;/td&gt;
+      &lt;td&gt;3”&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-9&lt;/td&gt;
+      &lt;td&gt;1,000 lbs&lt;/td&gt;
+      &lt;td&gt;5”&lt;/td&gt;
+      &lt;td&gt;1D-2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-8&lt;/td&gt;
+      &lt;td&gt;1 ton&lt;/td&gt;
+      &lt;td&gt;8”&lt;/td&gt;
+      &lt;td&gt;1D-1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-7&lt;/td&gt;
+      &lt;td&gt;1.5 ton&lt;/td&gt;
+      &lt;td&gt;1 ft&lt;/td&gt;
+      &lt;td&gt;1D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-6&lt;/td&gt;
+      &lt;td&gt;2 ton&lt;/td&gt;
+      &lt;td&gt;1.5 ft&lt;/td&gt;
+      &lt;td&gt;1D+2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-5&lt;/td&gt;
+      &lt;td&gt;3 ton&lt;/td&gt;
+      &lt;td&gt;2 ft&lt;/td&gt;
+      &lt;td&gt;2D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-4&lt;/td&gt;
+      &lt;td&gt;5 ton&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;3D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-3&lt;/td&gt;
+      &lt;td&gt;7 ton&lt;/td&gt;
+      &lt;td&gt;1.5&lt;/td&gt;
+      &lt;td&gt;5D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-2&lt;/td&gt;
+      &lt;td&gt;10 ton&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;7D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-1&lt;/td&gt;
+      &lt;td&gt;15 ton&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;1D dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+0&lt;/td&gt;
+      &lt;td&gt;20 ton&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;1D+2 dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+1&lt;/td&gt;
+      &lt;td&gt;30 ton&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;2D dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+2&lt;/td&gt;
+      &lt;td&gt;50 ton&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;3D dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+3&lt;/td&gt;
+      &lt;td&gt;70 ton&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;5D dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+4&lt;/td&gt;
+      &lt;td&gt;100 ton&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;7D dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+5&lt;/td&gt;
+      &lt;td&gt;150 ton&lt;/td&gt;
+      &lt;td&gt;50&lt;/td&gt;
+      &lt;td&gt;5D dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+6&lt;/td&gt;
+      &lt;td&gt;200 ton&lt;/td&gt;
+      &lt;td&gt;70&lt;/td&gt;
+      &lt;td&gt;7D dDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+7&lt;/td&gt;
+      &lt;td&gt;300 ton&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;1D cDMG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;+8&lt;/td&gt;
+      &lt;td&gt;500 ton&lt;/td&gt;
+      &lt;td&gt;150&lt;/td&gt;
+      &lt;td&gt;1D+2 cDMG&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+<summary>There’s no reason not to admit that I don’t know what I’m doing, since it’s on a private blog! Even still, I don’t know what I’m doing. That’s important to establish off the bat. But let’s get on to the content.</summary>
+</entry>
+</feed>

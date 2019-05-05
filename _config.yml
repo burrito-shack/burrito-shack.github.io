@@ -1,0 +1,60 @@
+# Site Info
+title: 'Burrito Shack'
+tagline: 'Now with 100% real beef!'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+#baseurl: "/lanyon"
+url: http://burrito-shack.github.io
+#logo: '/public/logo.png'
+
+# Site configurations
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+destination: ./burrito-shack.github.io
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Linsolv
+  description: Part Time Gamer, No Time Writer, Full-Time Production Employee
+  gravatar: 10896b89c18f78bbdab17f9b737f18bd # md5 hash of your email address
+  contact:
+    #linkedin:  https://www.linkedin.com/in/lizhihao
+    #github:    https://github.com/codinfox
+    # facebook:  <hide>
+    #twitter:   https://twitter.com/Li_Zhihao
+    #weibo:     http://weibo.com/41173780
+    email:     BurritoShack@protonmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  'Almighty Gold':
+    - '/almighty-gold/intro/'
+  About:
+    - '/about/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+# Plugins
+# mathjax: true # whether support mathjax
+#google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'burritoshack' # leave blank if you don't want disqus
