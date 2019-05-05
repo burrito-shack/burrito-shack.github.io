@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Burrito Shack</title>
- <link href="http://burrito-shack.github.io/atom.xml" rel="self"/>
- <link href="http://burrito-shack.github.io/"/>
- <updated>2019-05-05T10:15:31-04:00</updated>
- <id>http://burrito-shack.github.io</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-05-05T10:21:50-04:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Linsolv</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>One System to Rule Them All</title>
-   <link href="http://burrito-shack.github.io/gurps/2019/04/29/One-System-to-Rule-Them-All/"/>
+   <link href="http://localhost:4000/gurps/2019/04/29/One-System-to-Rule-Them-All/"/>
    <updated>2019-04-29T00:57:00-04:00</updated>
-   <id>http://burrito-shack.github.io/gurps/2019/04/29/One-System-to-Rule-Them-All</id>
+   <id>http://localhost:4000/gurps/2019/04/29/One-System-to-Rule-Them-All</id>
    <content type="html">&lt;p&gt;This morning, I got an email about an &lt;a href=&quot;http://ubiquitousrat.net/?p=5013&quot;&gt;Article from Che Webster&lt;/a&gt; musing about an issue I’ve been wrestling with since I started running games: sticking with one thing. I’m one of the GMs who would start talking about the latest new game he’d heard about, or new idea he’d had, and that pretty much meant that the sign that the current campaign (never long-running) was over. And now I want to tell you how that all changed.&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -43,9 +43,9 @@
  
  <entry>
    <title>GURPS Micro-Mecha v0.2</title>
-   <link href="http://burrito-shack.github.io/gurps/2019/04/27/GURPS-Micro-Mecha-0.2/"/>
+   <link href="http://localhost:4000/gurps/2019/04/27/GURPS-Micro-Mecha-0.2/"/>
    <updated>2019-04-27T22:20:00-04:00</updated>
-   <id>http://burrito-shack.github.io/gurps/2019/04/27/GURPS-Micro-Mecha-0.2</id>
+   <id>http://localhost:4000/gurps/2019/04/27/GURPS-Micro-Mecha-0.2</id>
    <content type="html">&lt;h1 id=&quot;patch-notes&quot;&gt;Patch Notes&lt;/h1&gt;
 &lt;p&gt;A few changes needed to be made to my previous design, from simple arithmetic.&lt;/p&gt;
 
@@ -270,9 +270,9 @@ Handheld Melee weapons deal Weapon Damage, and automatically choose between bein
  
  <entry>
    <title>Almighty Gold PbP</title>
-   <link href="http://burrito-shack.github.io/gurps/2019/04/27/Almighty-Gold-Ultralite/"/>
+   <link href="http://localhost:4000/gurps/2019/04/27/Almighty-Gold-Ultralite/"/>
    <updated>2019-04-27T20:49:49-04:00</updated>
-   <id>http://burrito-shack.github.io/gurps/2019/04/27/Almighty-Gold-Ultralite</id>
+   <id>http://localhost:4000/gurps/2019/04/27/Almighty-Gold-Ultralite</id>
    <content type="html">&lt;p&gt;One of the things I took away from the excellent &lt;a href=&quot;http://mailanka.blogspot.com/2016/07/a-psi-wars-primer.html&quot;&gt;Psi-Wars articles&lt;/a&gt; by Mailanka, was the importance of actual play-testing in the course of iterating. And of course, I’ve done some iterating on Almighty Gold already. I’ve designed templates. I’ve tested all the various design methods on paper, except for my own. I really ought to get on that, because I did discover that 20 hard points might be way too many, or that weapons may be too powerful, when trying to toy with the idea of 1-foot-tall micro-machines (&lt;a href=&quot;/gurps/2019/04/23/GURPS-Micro-Mecha/&quot;&gt;Micro Mecha&lt;/a&gt; indeed!) with damage in mind (10 hard points put together onto a single huge gun, 4 into armor for DR - which doesn’t scale, and needs to! - and 6 points into legs) was dealing 1D dDamage. Though, to be fair, I did forget that I needed a power plant to move the legs! So I’d be reduced to 3 points of Armor (18 dDR, but it ought to be 30 DR) and with 1 PP to spare.&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -321,9 +321,9 @@ Handheld Melee weapons deal Weapon Damage, and automatically choose between bein
  
  <entry>
    <title>GURPS Micro-Mecha v0.1</title>
-   <link href="http://burrito-shack.github.io/gurps/2019/04/23/GURPS-Micro-Mecha/"/>
+   <link href="http://localhost:4000/gurps/2019/04/23/GURPS-Micro-Mecha/"/>
    <updated>2019-04-23T23:50:49-04:00</updated>
-   <id>http://burrito-shack.github.io/gurps/2019/04/23/GURPS-Micro-Mecha</id>
+   <id>http://localhost:4000/gurps/2019/04/23/GURPS-Micro-Mecha</id>
    <content type="html">&lt;p&gt;There’s no reason not to admit that I don’t know what I’m doing, since it’s on a private blog! Even still, I don’t know what I’m doing. That’s important to establish off the bat. But let’s get on to the content.&lt;/p&gt;
 
 &lt;h1 id=&quot;gurps-mecha-is-a-mess&quot;&gt;GURPS Mecha Is A Mess&lt;/h1&gt;
