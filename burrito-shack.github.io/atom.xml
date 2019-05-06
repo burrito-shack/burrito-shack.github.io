@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Burrito Shack</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2019-05-05T10:21:50-04:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://burrito-shack.github.io/atom.xml" rel="self"/>
+ <link href="http://burrito-shack.github.io/"/>
+ <updated>2019-05-05T21:58:33-04:00</updated>
+ <id>http://burrito-shack.github.io</id>
  <author>
    <name>Linsolv</name>
    <email></email>
@@ -13,10 +13,59 @@
 
  
  <entry>
+   <title>Gaming and the Gentle Art of Overthinking</title>
+   <link href="http://burrito-shack.github.io/overthinking/2019/05/05/The-Gentle-Art-of-Overthinking/"/>
+   <updated>2019-05-05T15:25:00-04:00</updated>
+   <id>http://burrito-shack.github.io/overthinking/2019/05/05/The-Gentle-Art-of-Overthinking</id>
+   <content type="html">&lt;p&gt;Almost as if to make me look like a fool the same day as I wrote a long, vaguely passionate defense of GURPS in &lt;a href=&quot;/gurps/2019/04/29/One-System-to-Rule-Them-All/&quot;&gt;my last blog post&lt;/a&gt;, my play-by-post game, which had been stagnating in the “nobody is talking or making characters” stage that all my games seem to spend a few weeks in broke up, and left me with one player who talked either more than I could handle, or not at all, and then his friend, who only went as far as “not at all.”&lt;/p&gt;
+
+&lt;p&gt;So I’m not proud of myself but I sunk into a depression and ghosted.&lt;/p&gt;
+
+&lt;p&gt;Since then I’ve been joking in the Mud &amp;amp; Blood Discord that I only play 5e from now on. It’s been a fun joke, and hasn’t required me to do more than some light reading. And I mean very light. Even that wasn’t required. I did think that it might be time to pick up another fun project, which was “how do you build an agrarian medieval fantasy about a world where some people are 20 times stronger than other people, and some people are visibly demons, and you just have to accept that.” But I haven’t done much work on it yet. I might include a few posts on getting that going, if I decide to go that way.&lt;/p&gt;
+
+&lt;p&gt;But that’s not what I want to talk about. Today I just wanted to talk out my thoughts. Everyone I talk to about it says I’m over-thinking it, and if anything they’re understating the issue. I have always over-thought every single thing. I over-thought tennis, I over-thought my career choices, I over-thought college so much that it took me years to actually attend one. Granted that was more like over-thinking the debt I was going to have to take on to attend, when in fact I may have been under-thinking it. After all, it’s still all there, staring me dead in the eyes, day by day.&lt;/p&gt;
+
+&lt;p&gt;But that’s not what I wanted to talk about either.&lt;/p&gt;
+
+&lt;p&gt;My problem is that what I want out of a game doesn’t make itself into one coherent idea. I want it all. I want a game that runs fast. I want a game that preps light. I want a game that gives the players all the rules in a pretty little PDF that I can give them, and I want that PDF to be 32 pages long or less including setting information. I want a game that appeals to my sense of aesthetics. I want a game that gives me the excitement of trying something new every week.&lt;/p&gt;
+
+&lt;p&gt;Oh, and don’t even get me started on the players. I feel like a cat. I want attention when I want it, and I want to be left alone when I want to be. And I’m just kind of tired of doing such stupid stuff!&lt;/p&gt;
+
+&lt;p&gt;Sure, that’s just how it is, and sure, I can get over it. But it’s hard to remind myself, when I have problems, that &lt;em&gt;everyone&lt;/em&gt; has problems. I’m not uniquely suffering, and I’m barely unique in solving them.&lt;/p&gt;
+
+&lt;p&gt;So I’ve been bothering myself with a long series of problems. I want the player base that 5e represents. I think everyone does. But I don’t like Forgotten Realms, and I don’t like combat slogs, and I feel like that’s kind of what 5e wants from its players. 6-8 “encounters” (which don’t need to be combat, but &lt;strong&gt;do&lt;/strong&gt; need to exhaust resources) per Long Rest. I don’t like more than 1 combat per session. And I don’t mind &lt;em&gt;some&lt;/em&gt; magic, but I don’t like &lt;em&gt;Dungeons and Dragons&lt;/em&gt; magic, which is &lt;a href=&quot;&amp;quot;https://talesoftheramblingbumblers.com/2009/01/13/ad-vance-to-a-more-vancian-magic/&amp;quot;&quot;&gt;distinct from Vancian magic&lt;/a&gt; despite what the internet will tell you.&lt;/p&gt;
+
+&lt;p&gt;And I don’t like the settings. I don’t know Forgotten Realms, and I don’t know if I want to learn it. It’s &lt;em&gt;too&lt;/em&gt; deep, there’s &lt;em&gt;too&lt;/em&gt; much to learn, and at the end of the day when you’re lying in bed you have to ask yourself why nobody else stepped in to save the day. Where was Drizzt? Where was Catti-Brie? Where was Storm Silverhand and the Harpers? Where was Elminster? Where’s Laerel Silverhand? &lt;em&gt;(Ask me how many of these I knew before I looked them up)&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s a setting with what are functionally Gods running around constantly interfering in events. How precisely did a CR 10 bandit lord entirely escape their attention and fail utterly to elicit a response? How is this plot occurring with a Neutral-Good God running around the North righting every wrong that crosses his path?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So rather than try to learn all 30+ countries, learning one or two of them well enough that I could run them (I will say that my previous attempt involved learning about Cormyr), and hope that &lt;em&gt;eventually I just like it&lt;/em&gt;, that’s obviously out of contention. As are most of the other settings that are “not” Forgotten Realms, because they all fail even more completely to answer basic questions about why, if any old Cleric can make food and water, anyone would bother farming. If they’re not farming, what are they doing? This is a serious issue in the real world. We’re kind of running out of answers to the question “if you’re not making something then what do you actually get paid for,” and we’ve got a lot more ways to make stuff than they did in your typical 13th century society (which, in spite of themselves, the writers of these settings seem to be unable to shake the desire to work around).&lt;/p&gt;
+
+&lt;p&gt;So it’s a whole mess. But look. I’m getting too deep into this. The answer seemed pretty obvious. Adventures in Middle Earth is a 5e setting book, it’s a setting I know a little bit about (enough to get by, at least) and it’s got low magic. Technically there’s no Wizard (though the Scholar gets a little close), which is largely consistent with the power set of “Wizards” in Lord of the Rings: Gandalf rarely, if ever, describes himself in such a way. He &lt;em&gt;is Wise&lt;/em&gt;. He knows words of command. But not “spells” that can cast fireballs.&lt;/p&gt;
+
+&lt;p&gt;But then I think, well, I’ve heard that The One Ring “captures the spirit of Tolkien” better than 5e. So if I’m just going to live in Middle Earth, then I’d rather play the best version of it.&lt;/p&gt;
+
+&lt;p&gt;Careful readers will already see the issue at hand here. I’ve already given up the advantage of 5e that I wanted, namely the player base who knows the rules and is excited to play. So what’s the point?&lt;/p&gt;
+
+&lt;p&gt;What’s the point, indeed?&lt;/p&gt;
+
+&lt;p&gt;Might as well just play GURPS at that point. Play with a few rules tweaks to mimic The One Ring’s on-and-off cycle. And that way I can use a few of the rules supplements that I’ve been interested in exploring from the Games Diner and others. So what’s the big deal?&lt;/p&gt;
+
+&lt;p&gt;And that gets down to what I want here. I just want to get something I can be happy with. So why am I putting all this work into something I don’t know if I care about?&lt;/p&gt;
+
+&lt;p&gt;Also, as an unrelated question… where’s the line between Dungeon Fantasy and Fantasy? A lot to think about.&lt;/p&gt;
+
+&lt;p&gt;But I think the answer, at least in the short term, is to admit that I don’t need to build my own world, I just need to find something I can be happy with.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>One System to Rule Them All</title>
-   <link href="http://localhost:4000/gurps/2019/04/29/One-System-to-Rule-Them-All/"/>
+   <link href="http://burrito-shack.github.io/gurps/2019/04/29/One-System-to-Rule-Them-All/"/>
    <updated>2019-04-29T00:57:00-04:00</updated>
-   <id>http://localhost:4000/gurps/2019/04/29/One-System-to-Rule-Them-All</id>
+   <id>http://burrito-shack.github.io/gurps/2019/04/29/One-System-to-Rule-Them-All</id>
    <content type="html">&lt;p&gt;This morning, I got an email about an &lt;a href=&quot;http://ubiquitousrat.net/?p=5013&quot;&gt;Article from Che Webster&lt;/a&gt; musing about an issue I’ve been wrestling with since I started running games: sticking with one thing. I’m one of the GMs who would start talking about the latest new game he’d heard about, or new idea he’d had, and that pretty much meant that the sign that the current campaign (never long-running) was over. And now I want to tell you how that all changed.&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -43,9 +92,9 @@
  
  <entry>
    <title>GURPS Micro-Mecha v0.2</title>
-   <link href="http://localhost:4000/gurps/2019/04/27/GURPS-Micro-Mecha-0.2/"/>
+   <link href="http://burrito-shack.github.io/gurps/2019/04/27/GURPS-Micro-Mecha-0.2/"/>
    <updated>2019-04-27T22:20:00-04:00</updated>
-   <id>http://localhost:4000/gurps/2019/04/27/GURPS-Micro-Mecha-0.2</id>
+   <id>http://burrito-shack.github.io/gurps/2019/04/27/GURPS-Micro-Mecha-0.2</id>
    <content type="html">&lt;h1 id=&quot;patch-notes&quot;&gt;Patch Notes&lt;/h1&gt;
 &lt;p&gt;A few changes needed to be made to my previous design, from simple arithmetic.&lt;/p&gt;
 
@@ -270,9 +319,9 @@ Handheld Melee weapons deal Weapon Damage, and automatically choose between bein
  
  <entry>
    <title>Almighty Gold PbP</title>
-   <link href="http://localhost:4000/gurps/2019/04/27/Almighty-Gold-Ultralite/"/>
+   <link href="http://burrito-shack.github.io/gurps/2019/04/27/Almighty-Gold-Ultralite/"/>
    <updated>2019-04-27T20:49:49-04:00</updated>
-   <id>http://localhost:4000/gurps/2019/04/27/Almighty-Gold-Ultralite</id>
+   <id>http://burrito-shack.github.io/gurps/2019/04/27/Almighty-Gold-Ultralite</id>
    <content type="html">&lt;p&gt;One of the things I took away from the excellent &lt;a href=&quot;http://mailanka.blogspot.com/2016/07/a-psi-wars-primer.html&quot;&gt;Psi-Wars articles&lt;/a&gt; by Mailanka, was the importance of actual play-testing in the course of iterating. And of course, I’ve done some iterating on Almighty Gold already. I’ve designed templates. I’ve tested all the various design methods on paper, except for my own. I really ought to get on that, because I did discover that 20 hard points might be way too many, or that weapons may be too powerful, when trying to toy with the idea of 1-foot-tall micro-machines (&lt;a href=&quot;/gurps/2019/04/23/GURPS-Micro-Mecha/&quot;&gt;Micro Mecha&lt;/a&gt; indeed!) with damage in mind (10 hard points put together onto a single huge gun, 4 into armor for DR - which doesn’t scale, and needs to! - and 6 points into legs) was dealing 1D dDamage. Though, to be fair, I did forget that I needed a power plant to move the legs! So I’d be reduced to 3 points of Armor (18 dDR, but it ought to be 30 DR) and with 1 PP to spare.&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -321,9 +370,9 @@ Handheld Melee weapons deal Weapon Damage, and automatically choose between bein
  
  <entry>
    <title>GURPS Micro-Mecha v0.1</title>
-   <link href="http://localhost:4000/gurps/2019/04/23/GURPS-Micro-Mecha/"/>
+   <link href="http://burrito-shack.github.io/gurps/2019/04/23/GURPS-Micro-Mecha/"/>
    <updated>2019-04-23T23:50:49-04:00</updated>
-   <id>http://localhost:4000/gurps/2019/04/23/GURPS-Micro-Mecha</id>
+   <id>http://burrito-shack.github.io/gurps/2019/04/23/GURPS-Micro-Mecha</id>
    <content type="html">&lt;p&gt;There’s no reason not to admit that I don’t know what I’m doing, since it’s on a private blog! Even still, I don’t know what I’m doing. That’s important to establish off the bat. But let’s get on to the content.&lt;/p&gt;
 
 &lt;h1 id=&quot;gurps-mecha-is-a-mess&quot;&gt;GURPS Mecha Is A Mess&lt;/h1&gt;
