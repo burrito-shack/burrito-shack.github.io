@@ -10,4 +10,4 @@ I talk too much. I think too little. I should make plans before I make a fool of
 
 And yet, here I am, and no more prepared than usual.
 
-Most of my content, for now, is and will be in my [blog]('/blog/') or regarding my Mecha setting, [Almighty Gold]({% link almighty-gold/intro.md %}).
+Most of my content, for now, is and will be in my [blog](/blog/index.html) or regarding my Mecha setting, [Almighty Gold]({% link almighty-gold/intro.md %}).
