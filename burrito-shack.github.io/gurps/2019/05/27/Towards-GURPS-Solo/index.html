@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Towards a GURPS Solo Engine &middot; Burrito Shack
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/main.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <div class="sidebar-personal-info">
+      <div class="sidebar-personal-info-section">
+        <a href="http://gravatar.com/10896b89c18f78bbdab17f9b737f18bd">
+          <img src="http://www.gravatar.com/avatar/10896b89c18f78bbdab17f9b737f18bd?s=350" title="View on Gravatar" alt="View on Gravatar" />
+        </a>
+      </div>
+      <div class="sidebar-personal-info-section">
+        <p>Part Time Gamer, No Time Writer, Full-Time Production Employee</p>
+      </div>
+      
+      
+      
+      <div class="sidebar-personal-info-section">
+        <p> Follow me: 
+        
+        
+        
+        <a href="BurritoShack@protonmail.com">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+        
+        
+        
+        </p>
+      </div>
+      
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    
+      
+      
+      
+
+      
+
+      <span class="">
+        <a class="sidebar-nav-item " href="/">
+          Home
+        </a>
+
+        
+      </span>
+
+    
+      
+      
+      
+
+      
+
+      <span class="foldable">
+        <a class="sidebar-nav-item " href="/blog/">
+          Blog
+        </a>
+
+        
+          
+            
+            
+            
+              <a class="sidebar-nav-item sidebar-nav-item-sub " href="/blog/categories/">
+                Categories
+              </a>
+          
+        
+          
+            
+            
+            
+              <a class="sidebar-nav-item sidebar-nav-item-sub " href="/blog/tags/">
+                Tags
+              </a>
+          
+        
+      </span>
+
+    
+      
+      
+      
+
+      
+
+      <span class="">
+        <a class="sidebar-nav-item " href="/almighty-gold/intro/">
+          Almighty Gold
+        </a>
+
+        
+      </span>
+
+    
+      
+      
+      
+
+      
+
+      <span class="">
+        <a class="sidebar-nav-item " href="/about/">
+          About
+        </a>
+
+        
+      </span>
+
+    
+
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+    &copy; 2019 Linsolv. This work is liscensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
+    </p>
+  </div>
+
+  <div class="sidebar-item">
+    <p>
+    Powered by <a href="http://jekyllrb.com">jekyll</a> and <a href="http://codinfox.github.io">codinfox-lanyon</a>
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home" title="Burrito Shack">
+              <img class="masthead-logo" src=""/>
+            </a>
+            <small>Now with 100% real beef!</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <!--<h1 class="page-title">Towards a GURPS Solo Engine</h1>-->
+  <span class="post-date">27 May 2019</span>
+   |
+  
+    <a href="/blog/tags/#solo-roleplaying" class="post-tag">solo roleplaying</a>
+  
+  
+  <article>
+    <p>I’ve been playing my World War 2 game, still. Still haven’t gotten away from it!</p>
+
+<p>But I also realized that I kind of missed just screwing around, and not worrying too much about stuff. Even though I run a very prep-lite game, and I don’t worry too much about it, it’s still something where I can’t just ghost the heck out when I get bored. And I, fickle and all, have trouble relaxing when I’m signing a lease rather than sitting down for a play session.</p>
+
+<p>That, of course, and I have played solo in the past. I’ve referred in the past to <a href="&quot;http://ubiquitousrat.net/&quot;">Ubiquitous Rat</a> and his blog. He’s posted <a href="&quot;http://ubiquitousrat.net/?tag=solo&quot;">many, many times about solo play</a>. So I can’t 100% credit him for it, but he certainly made it sound like fun.</p>
+
+<p>There are a thousand ways to play solo. There’s simple systems and complex systems. There’s structured systems and freeform. And furthermore there’s CYOA adventure books, where the whole thing is written out for you, similar to 3rd Edition’s <em>All In A Night’s Work</em>. And there’s just one problem:</p>
+
+<p>For all that you can use them with other rules, <strong><em>why the hell would you?</em></strong></p>
+
+<!-- more -->
+
+<p>One of the things that immediately gets pointed out when you read an introduction to Solo Roleplaying is what the whole idea is. After all, isn’t RP a social experience? Some part of it is about performance, and experiencing a story alongside other people.</p>
+
+<p>Well, okay, so then you have people asking how you can be a player and GM at the same time. Wouldn’t you always know what was going to happen? And then they point out, that’s what dice are for… it’s a conversation that, very likely, everyone who’s talked about this subject has had. Possibly with themselves, at some point. <em>That’s what the dice are for.</em></p>
+
+<p>But okay. I can jive with that. But what’s the fundamental difference between the question, “Do I recognize the man pointing a gun at me?” and the question, “Does the bullet kill me?” The difference is… nothing. You’re asking a yes-no question, you’ve probably got a pretty good idea how much you want to weight each answer, and you’ve probably got a game rule to roll to find out.</p>
+
+<p>Like, maybe you’ve met him before, but you didn’t take Eidetic Memory [5]. Or maybe you’ve really never heard of this chump before. In a game with a GM, he makes a decision about whether or not the two of you have met, and then maybe he has you roll IQ to see if you remember the lackey who was sitting on the couch of Jimmy the Spider’s office.</p>
+
+<p>So you either lean hard on the rules, or you lean hard on the engine. Or you roll a <em>lot</em> of dice, and you try to drive two cars at once.</p>
+
+<p>Which is fine sometimes, but particularly when you’re looking at a system like Mythic, where rolls have features other than simple “yes” or “no” answers, every time you lean on the rules for even a moment, you’re missing out on the opportunity to roll doubles at or under the Chaos Factor, and having a random event occur. Which is part of the game! Someone worked hard for this!</p>
+
+<p>So I want something that feels more integrated into GURPS as a concept. I’ve got some thoughts, but I’m not sure. More as things develop, but I’ll post what I’m planning on trying once I’ve finished this little adventure:</p>
+
+<h2 id="the-basics">The Basics</h2>
+
+<p>Roll 3d6 versus the TN! Just like GURPS! When things are easier, add a bonus to the TN. When things are harder, subtract a penalty from the TN. For consistency with GURPS 4e, we’ll call Easy +1, Average +0, Hard -1, and Very Hard -2. You can extrapolate from there, hopefully. (This is a place where I may need work. Possibly a lot of work!)</p>
+
+<p>Borrowing the concept of Chaos from Mythic, the default Chaos is 3. If you roll doubles or triples on 3d6, and the number on the die is 3-, then you consult an oracle. I don’t have one yet, but hopefully one is going to come later. Chaos also contributes to TN; 2 gives +1, 3 gives +0, 4 gives -1, 5 gives -2, and so on in both directions. When things basically went good, decrease Chaos. When things basically went bad, increase Chaos. For games which feature combat, you might want to consider raising the Chaos every scene where the characters get into combat, as well!</p>
+
+<p>The issue then comes down to assigning TNs and their outcomes, and that’s where I’ve got a few possibilities.</p>
+
+<h3 id="option-1-yes-and-no-with-crits">Option 1: Yes and No With Crits</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>4-</td>
+      <td>Critical Yes! [Yes, and something emphatically yes-like]</td>
+    </tr>
+    <tr>
+      <td>10-</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>16-</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>17+</td>
+      <td>Critical No! [No, and something emphatically no-like]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="option-2-yes-and">Option 2: Yes, and…</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>4-</td>
+      <td>Yes, and [something yes-like], and furthermore [something else yes-like]!</td>
+    </tr>
+    <tr>
+      <td>7-</td>
+      <td>Yes, and… [something yes-like]</td>
+    </tr>
+    <tr>
+      <td>10-</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>13-</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>16-</td>
+      <td>No, and… [something no-like]</td>
+    </tr>
+    <tr>
+      <td>17+</td>
+      <td>No, and [something no-like], and furthermore [something else no-like]!</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We’ve added an intermediate option here.</p>
+
+<p>However, I’ve heard a couple people suggest that they’re not big fans of simple yes-and-no, and I’m not sure whether or not I agree with that. But I will say, Option 2 features some awfully lonely-looking options!</p>
+
+<h3 id="option-3-yes-but">Option 3: Yes, but…</h3>
+
+<p>Building on Option 2…</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>4-</td>
+      <td>Yes, and [something yes-like], and furthermore [something else yes-like]!</td>
+    </tr>
+    <tr>
+      <td>7-</td>
+      <td>Yes, and… [something yes-like]</td>
+    </tr>
+    <tr>
+      <td>9-</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Yes, but… [something no-like]</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>No, but… [something yes-like]</td>
+    </tr>
+    <tr>
+      <td>13-</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>16-</td>
+      <td>No, and… [something no-like]</td>
+    </tr>
+    <tr>
+      <td>17+</td>
+      <td>No, and [something no-like], and furthermore [something else no-like]!</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>and then, if you really don’t want simple answers…</p>
+
+<h3 id="option-4-i-said-yes-but">Option 4: I said YES BUT!</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>4-</td>
+      <td>Yes, and [something yes-like], and furthermore [something else yes-like]!</td>
+    </tr>
+    <tr>
+      <td>7-</td>
+      <td>Yes, and… [something yes-like]</td>
+    </tr>
+    <tr>
+      <td>10-</td>
+      <td>Yes, but… [something no-like]</td>
+    </tr>
+    <tr>
+      <td>13-</td>
+      <td>No, but… [something yes-like]</td>
+    </tr>
+    <tr>
+      <td>16-</td>
+      <td>No, and… [something no-like]</td>
+    </tr>
+    <tr>
+      <td>17+</td>
+      <td>No, and [something no-like], and furthermore [something else no-like]!</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This one makes sure that you always have some complication or mitigating factor, and never just have the dice go “Oh, yeah, sure.” Whether or not this is a problem for you is really up to you!</p>
+
+<p>And of course, all of these could easily be done without the criticals, as well. I won’t re-do the tables to show how that would work, but it’s not hard to figure out.</p>
+
+<p>I think, when I finally do my testing, I’m going to use Option 4, and as for oracles… well, I’ll probably want to crib notes from Mythic to a degree, but then I’m going to be using either playing card cartomancy stuff, or using my new Petit Jeu Lenoremand deck, because I won’t use it for anything <em>but</em> gaming oracles in any case.</p>
+
+  </article>
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/gurps/2019/05/07/13-50-GURPS-Reading-List/">
+            GURPS Reading List and Plans for the Future
+            <small>07 May 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/overthinking/2019/05/05/The-Gentle-Art-of-Overthinking/">
+            Gaming and the Gentle Art of Overthinking
+            <small>05 May 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/gurps/2019/04/29/One-System-to-Rule-Them-All/">
+            One System to Rule Them All
+            <small>29 Apr 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+<div class="comments">
+  <h2>Comments</h2>
+  <div id="disqus_thread"></div>
+  <script>
+var disqus_config = function () {
+  this.page.url = 'http://burrito-shack.github.io/gurps/2019/05/27/Towards-GURPS-Solo/'; // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = '/gurps/2019/05/27/Towards-GURPS-Solo'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() {
+  var d = document, s = d.createElement('script');
+  s.src = '//burritoshack.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if (target === toggle) {
+            checkbox.checked = !checkbox.checked;
+            e.preventDefault();
+          } else if (checkbox.checked && !sidebar.contains(target)) {
+            /* click outside the sidebar when sidebar is open */
+            checkbox.checked = false;
+          }
+        }, false);
+      })(document);
+    </script>
+    
+  </body>
+  
+  <script id="dsq-count-scr" src="//burritoshack.disqus.com/count.js" async></script>
+  
+</html>

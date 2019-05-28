@@ -4,13 +4,192 @@
  <title>Burrito Shack</title>
  <link href="http://burrito-shack.github.io/atom.xml" rel="self"/>
  <link href="http://burrito-shack.github.io/"/>
- <updated>2019-05-07T14:07:04-04:00</updated>
+ <updated>2019-05-27T21:13:37-04:00</updated>
  <id>http://burrito-shack.github.io</id>
  <author>
    <name>Linsolv</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Towards a GURPS Solo Engine</title>
+   <link href="http://burrito-shack.github.io/gurps/2019/05/27/Towards-GURPS-Solo/"/>
+   <updated>2019-05-27T20:07:00-04:00</updated>
+   <id>http://burrito-shack.github.io/gurps/2019/05/27/Towards-GURPS-Solo</id>
+   <content type="html">&lt;p&gt;I’ve been playing my World War 2 game, still. Still haven’t gotten away from it!&lt;/p&gt;
+
+&lt;p&gt;But I also realized that I kind of missed just screwing around, and not worrying too much about stuff. Even though I run a very prep-lite game, and I don’t worry too much about it, it’s still something where I can’t just ghost the heck out when I get bored. And I, fickle and all, have trouble relaxing when I’m signing a lease rather than sitting down for a play session.&lt;/p&gt;
+
+&lt;p&gt;That, of course, and I have played solo in the past. I’ve referred in the past to &lt;a href=&quot;&amp;quot;http://ubiquitousrat.net/&amp;quot;&quot;&gt;Ubiquitous Rat&lt;/a&gt; and his blog. He’s posted &lt;a href=&quot;&amp;quot;http://ubiquitousrat.net/?tag=solo&amp;quot;&quot;&gt;many, many times about solo play&lt;/a&gt;. So I can’t 100% credit him for it, but he certainly made it sound like fun.&lt;/p&gt;
+
+&lt;p&gt;There are a thousand ways to play solo. There’s simple systems and complex systems. There’s structured systems and freeform. And furthermore there’s CYOA adventure books, where the whole thing is written out for you, similar to 3rd Edition’s &lt;em&gt;All In A Night’s Work&lt;/em&gt;. And there’s just one problem:&lt;/p&gt;
+
+&lt;p&gt;For all that you can use them with other rules, &lt;strong&gt;&lt;em&gt;why the hell would you?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;One of the things that immediately gets pointed out when you read an introduction to Solo Roleplaying is what the whole idea is. After all, isn’t RP a social experience? Some part of it is about performance, and experiencing a story alongside other people.&lt;/p&gt;
+
+&lt;p&gt;Well, okay, so then you have people asking how you can be a player and GM at the same time. Wouldn’t you always know what was going to happen? And then they point out, that’s what dice are for… it’s a conversation that, very likely, everyone who’s talked about this subject has had. Possibly with themselves, at some point. &lt;em&gt;That’s what the dice are for.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;But okay. I can jive with that. But what’s the fundamental difference between the question, “Do I recognize the man pointing a gun at me?” and the question, “Does the bullet kill me?” The difference is… nothing. You’re asking a yes-no question, you’ve probably got a pretty good idea how much you want to weight each answer, and you’ve probably got a game rule to roll to find out.&lt;/p&gt;
+
+&lt;p&gt;Like, maybe you’ve met him before, but you didn’t take Eidetic Memory [5]. Or maybe you’ve really never heard of this chump before. In a game with a GM, he makes a decision about whether or not the two of you have met, and then maybe he has you roll IQ to see if you remember the lackey who was sitting on the couch of Jimmy the Spider’s office.&lt;/p&gt;
+
+&lt;p&gt;So you either lean hard on the rules, or you lean hard on the engine. Or you roll a &lt;em&gt;lot&lt;/em&gt; of dice, and you try to drive two cars at once.&lt;/p&gt;
+
+&lt;p&gt;Which is fine sometimes, but particularly when you’re looking at a system like Mythic, where rolls have features other than simple “yes” or “no” answers, every time you lean on the rules for even a moment, you’re missing out on the opportunity to roll doubles at or under the Chaos Factor, and having a random event occur. Which is part of the game! Someone worked hard for this!&lt;/p&gt;
+
+&lt;p&gt;So I want something that feels more integrated into GURPS as a concept. I’ve got some thoughts, but I’m not sure. More as things develop, but I’ll post what I’m planning on trying once I’ve finished this little adventure:&lt;/p&gt;
+
+&lt;h2 id=&quot;the-basics&quot;&gt;The Basics&lt;/h2&gt;
+
+&lt;p&gt;Roll 3d6 versus the TN! Just like GURPS! When things are easier, add a bonus to the TN. When things are harder, subtract a penalty from the TN. For consistency with GURPS 4e, we’ll call Easy +1, Average +0, Hard -1, and Very Hard -2. You can extrapolate from there, hopefully. (This is a place where I may need work. Possibly a lot of work!)&lt;/p&gt;
+
+&lt;p&gt;Borrowing the concept of Chaos from Mythic, the default Chaos is 3. If you roll doubles or triples on 3d6, and the number on the die is 3-, then you consult an oracle. I don’t have one yet, but hopefully one is going to come later. Chaos also contributes to TN; 2 gives +1, 3 gives +0, 4 gives -1, 5 gives -2, and so on in both directions. When things basically went good, decrease Chaos. When things basically went bad, increase Chaos. For games which feature combat, you might want to consider raising the Chaos every scene where the characters get into combat, as well!&lt;/p&gt;
+
+&lt;p&gt;The issue then comes down to assigning TNs and their outcomes, and that’s where I’ve got a few possibilities.&lt;/p&gt;
+
+&lt;h3 id=&quot;option-1-yes-and-no-with-crits&quot;&gt;Option 1: Yes and No With Crits&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4-&lt;/td&gt;
+      &lt;td&gt;Critical Yes! [Yes, and something emphatically yes-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10-&lt;/td&gt;
+      &lt;td&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16-&lt;/td&gt;
+      &lt;td&gt;No&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17+&lt;/td&gt;
+      &lt;td&gt;Critical No! [No, and something emphatically no-like]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;option-2-yes-and&quot;&gt;Option 2: Yes, and…&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4-&lt;/td&gt;
+      &lt;td&gt;Yes, and [something yes-like], and furthermore [something else yes-like]!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7-&lt;/td&gt;
+      &lt;td&gt;Yes, and… [something yes-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10-&lt;/td&gt;
+      &lt;td&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13-&lt;/td&gt;
+      &lt;td&gt;No&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16-&lt;/td&gt;
+      &lt;td&gt;No, and… [something no-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17+&lt;/td&gt;
+      &lt;td&gt;No, and [something no-like], and furthermore [something else no-like]!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;We’ve added an intermediate option here.&lt;/p&gt;
+
+&lt;p&gt;However, I’ve heard a couple people suggest that they’re not big fans of simple yes-and-no, and I’m not sure whether or not I agree with that. But I will say, Option 2 features some awfully lonely-looking options!&lt;/p&gt;
+
+&lt;h3 id=&quot;option-3-yes-but&quot;&gt;Option 3: Yes, but…&lt;/h3&gt;
+
+&lt;p&gt;Building on Option 2…&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4-&lt;/td&gt;
+      &lt;td&gt;Yes, and [something yes-like], and furthermore [something else yes-like]!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7-&lt;/td&gt;
+      &lt;td&gt;Yes, and… [something yes-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9-&lt;/td&gt;
+      &lt;td&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;Yes, but… [something no-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;No, but… [something yes-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13-&lt;/td&gt;
+      &lt;td&gt;No&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16-&lt;/td&gt;
+      &lt;td&gt;No, and… [something no-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17+&lt;/td&gt;
+      &lt;td&gt;No, and [something no-like], and furthermore [something else no-like]!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;and then, if you really don’t want simple answers…&lt;/p&gt;
+
+&lt;h3 id=&quot;option-4-i-said-yes-but&quot;&gt;Option 4: I said YES BUT!&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4-&lt;/td&gt;
+      &lt;td&gt;Yes, and [something yes-like], and furthermore [something else yes-like]!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7-&lt;/td&gt;
+      &lt;td&gt;Yes, and… [something yes-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10-&lt;/td&gt;
+      &lt;td&gt;Yes, but… [something no-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13-&lt;/td&gt;
+      &lt;td&gt;No, but… [something yes-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16-&lt;/td&gt;
+      &lt;td&gt;No, and… [something no-like]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17+&lt;/td&gt;
+      &lt;td&gt;No, and [something no-like], and furthermore [something else no-like]!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This one makes sure that you always have some complication or mitigating factor, and never just have the dice go “Oh, yeah, sure.” Whether or not this is a problem for you is really up to you!&lt;/p&gt;
+
+&lt;p&gt;And of course, all of these could easily be done without the criticals, as well. I won’t re-do the tables to show how that would work, but it’s not hard to figure out.&lt;/p&gt;
+
+&lt;p&gt;I think, when I finally do my testing, I’m going to use Option 4, and as for oracles… well, I’ll probably want to crib notes from Mythic to a degree, but then I’m going to be using either playing card cartomancy stuff, or using my new Petit Jeu Lenoremand deck, because I won’t use it for anything &lt;em&gt;but&lt;/em&gt; gaming oracles in any case.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>GURPS Reading List and Plans for the Future</title>
